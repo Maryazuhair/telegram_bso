@@ -61,7 +61,7 @@ def create_vector_store(chunks, persist_directory="./chroma_db"):
         return None
 
 def main():
-    pdf_path = "bankf.pdf"
+    pdf_path = "bso.pdf"
     if not os.path.exists(pdf_path):
         print(f"❌ ملف {pdf_path} غير موجود")
         return
