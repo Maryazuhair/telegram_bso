@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-telegram-bot>=20.0
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+chromadb
+openai
+pypdf
